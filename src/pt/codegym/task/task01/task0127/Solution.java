@@ -6,11 +6,13 @@ Quadrado de um número
 
 public class Solution {
     public static void main(String[] args) {
-        quadrado(5);
-        System.out.println();
+
+        System.out.println(quadrado(5));
     }
 
     public static int quadrado(int a) {
         return a * a;
     }
 }
+
+
